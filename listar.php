@@ -1,7 +1,7 @@
 <?php
 include 'conexao.php';
 
-$sql = "SELECT * FROM magos";
+$sql = "SELECT nome FROM magos";
 $resultado = mysqli_query($conn, $sql);
 
 if ($resultado) {
